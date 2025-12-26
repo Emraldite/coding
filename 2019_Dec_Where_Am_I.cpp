@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-    fstream fin("whereami.in");
-    fstream fout("whereami.out");
+    ifstream fin("whereami.in");
+    ofstream fout("whereami.out");
     int n{};
     fin >> n;
 
